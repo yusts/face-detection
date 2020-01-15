@@ -1,10 +1,17 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #43C6AC;
+  background: -webkit-linear-gradient(to right, #2e77b5, #43C6AC);
+  background: linear-gradient(to right, #2e77b5, #43C6AC);
+
+}
+
+button {
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 code {
